@@ -1,0 +1,102 @@
+header { 
+    height: 100px;
+    width: 100%;
+   
+}
+
+h1 {
+    text-align: center;
+    line-height: 100px;
+}
+
+.skeleton {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+  }
+
+#masthead {
+    position: relative;
+    z-index: 99;
+    height: 130px;
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+    overflow: auto;
+    background: #3c4847;
+  }
+  
+  #logo {
+    /* margin-right: 650px; */
+    margin-left: 665px;
+    height: 125px;
+    background-image: url("./ef427c793416427885141f2db653a569.png");
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+    
+
+
+
+/* .nav-wrapper {  
+    @extend .blue-text, .text-lighten-4
+} */
+
+/* div.schedule {
+   flex: auto;
+   align-content: center; */
+  
+   .card .card-content {
+       background-color:red;
+   }
+   
+   /* Weather */
+
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   
+   .input {
+       border-radius: 5px;
+       background: grey;
+    margin-left: auto;
+    margin-right: 25px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    flex-direction: column;
+   }
+
+   .input h1 {
+       margin-top: -8px;
+       margin-bottom: -20px;
+       font-size: 25px;
+   }
+
+   .input img {
+       width: 20%;
+   }
+
+   .display {
+       margin: 21px;
+       border-radius: 5px;
+   }
+
+   .input [type="submit"]{
+    height: 25px;   
+    width: 40%;
+   }
+
+   input p {
+       margin: 10px;
+   }
+   
+
+   h3 {
+       font-size: 15px;
+       margin: 2px 2px 2px 2px;
+   }
